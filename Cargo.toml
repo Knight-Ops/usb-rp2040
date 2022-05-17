@@ -1,10 +1,19 @@
 [package]
-name = "usb-2040"
+name = "usb-rp2040"
 version = "0.1.0"
 edition = "2018"
+
+[lib]
+name = "librp2040"
+path = "src/lib.rs"
+
+[[bin]]
+name = "usb-rp2040"
+path = "src/bin/bin.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rusb = "0.9.1"
 rand = "0.8.5"
+lazy_static = "1.4.0"
