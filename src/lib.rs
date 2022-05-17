@@ -2,7 +2,6 @@ use std::borrow::Borrow;
 use std::convert::TryInto;
 use std::time::Duration;
 
-use rand;
 use rusb::{self, Context, DeviceHandle, GlobalContext, UsbContext};
 
 use std::sync::Mutex;

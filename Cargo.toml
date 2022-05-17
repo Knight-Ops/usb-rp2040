@@ -15,5 +15,4 @@ path = "src/bin/bin.rs"
 
 [dependencies]
 rusb = "0.9.1"
-rand = "0.8.5"
 lazy_static = "1.4.0"
